@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-dos</title>
+    <style src="style.css"></style>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>Arbeits To-Dos</h1>
+				<div>
+					<div class="border1"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="first">.</p>Bitte To-Do einfügen.
+				<p id="second">Angeklickte Punkte werden als Erledigt markiert.</p>
+				</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="Neu..." maxlength="27">
+				<button id="enter"><i class="fas fa-pencil-alt"></i></button>
+			</div>
+		</div>
+
+        <div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="schleifenArrays.js"></script>
+</body>
+</html>
