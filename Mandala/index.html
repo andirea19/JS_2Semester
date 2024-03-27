@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js Mandala</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <form id="settingsForm">
+        <label for="colorInput">Wähle eine oder mehrere Farben:</label><br>
+        <input type="color" id="colorInput" name="colorInput" multiple><br>
+
+        <label for="circleCount">Anzahl der Kreise:</label><br>
+        <input type="number" id="circleCount" name="circleCount" min="1" value="1"><br>
+
+        <button type="submit">Zeichnen</button>
+    </form>
+
+    <button id="randomButton">Zufällige Farben und Kreise</button>
+
+    <div id="sketchContainer"></div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
