@@ -34,7 +34,8 @@ new p5((p) => {
 });
 
 document.getElementById('settingsForm').addEventListener('submit', (event) => {
-    event.preventDefault(); // Verhindert das Neuladen der Seite beim Absenden des Formulars
+    // Verhindert das Neuladen der Seite beim Absenden des Formulars - siehe JS 2
+    event.preventDefault(); 
 
     // Farben aus dem Formular lesen
     let colorInputs = document.getElementById('colorInput').value;
